@@ -1,0 +1,68 @@
+:root {
+  --primary01-color: #03153B;
+  --primary02-color: #00246A;
+  --primary03-color: #2348D6;
+  --gray900-color: #10141A;
+  --gray800-color: #1A212A;
+  --gray700-color: #262F3D;
+  --text-dark-light-swap09: #F2F5F9;
+  --text-dark-light-swap06: #768597;
+  --text-dark-light-swap05: #3D495C;
+  --text-dark-light-swap04: #262F3D;
+  --other13-color: #042FF9;
+  --other01-color: #0421B1;
+  --textDark-textmuted: #3D495C;
+  --textDark-textsecondary: #768597;
+  --textLight-textmuted: #AAB5C3;
+  --bg-muted-gray300: #CBD5E0;
+  --neutrals1-color: #EBEDF2;
+  --neutrals2-color: #F8F9FB;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  --grat1: #333333;
+  --gray2: #4F4F4F;
+  --gary5: #E0E0E0;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+.grid {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 479px) {
+  .grid {
+    width: 41.4rem;
+  }
+}
+@media (min-width: 520px) and (max-width: 1279px) {
+  .grid {
+    width: 76.8rem;
+  }
+}
+@media (min-width: 1280px) {
+  .grid {
+    width: 120rem;
+  }
+}
+
+.grid__full-width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex: wrap;
+}
+
+/*# sourceMappingURL=base.css.map */
